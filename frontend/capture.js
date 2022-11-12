@@ -19,7 +19,7 @@ var canvas = null;
 var photo = null;
 var startbutton = null;
 
-var backend_host = "http://localhost:8080";
+var backend_host = "https://facerecognitionbackend.azurewebsites.net";
 
 function startup() {
   video = document.getElementById('video');
